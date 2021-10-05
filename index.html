@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KeyCode</title>
+    <link rel="stylesheet"  media="screen" href="main.css"/>
+</head>
+<body id="wrapper" onkeydown="keycode(event)">
+    <div id="first">
+        <h1 >Press key to discover KeyCode</h1>
+    </div>
+
+    <div id="gen" class="stage">
+        <h1>KeyCode Generator</h1>
+        <h2 id="keycode"></h2>
+        <div id="container">
+            <div class="btn">
+                <p>event.key</p>
+                <span  id="eventKey"></span></div>
+
+                <div class="btn">
+                    <p>event.which</p>
+                    <span id="eventWhich"></span>
+                </div>
+
+                    <div class="btn">
+                        <p>event.code</p>
+                        <span id="eventCode">    
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
